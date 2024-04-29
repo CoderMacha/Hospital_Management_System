@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_btm_menu"
+        android:title="Home"
+        android:icon="@drawable/home_icon"/>
+
+    <item
+        android:id="@+id/appointments_btm_menu"
+        android:title="Appointments"
+        android:icon="@drawable/calendar_icon"/>
+
+    <item
+        android:id="@+id/medicine_btm_menu"
+        android:title="Medicines"
+        android:icon="@drawable/drugs_icon"/>
+
+    <item
+        android:id="@+id/bill_btm_menu"
+        android:title="bill"
+        android:icon="@drawable/bill_icon"/>
+
+</menu>

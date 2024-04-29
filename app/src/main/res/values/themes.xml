@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Hospital_Management_app" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/bluish_deep</item>
+       <!-- <item name="android:statusBarColor">@android:color/transparent</item>-->
+    </style>
+
+
+    <style name="Theme.Hospital_Management_app" parent="Base.Theme.Hospital_Management_app" />
+</resources>

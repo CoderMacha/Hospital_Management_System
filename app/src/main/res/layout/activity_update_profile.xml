@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfileActivity"
+
+    android:background="@color/Start_color_blu">
+
+    <TextView
+        android:id="@+id/textView_update_profile_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="You can update your profile details here!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="70dp"
+        android:elevation="70dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText_update_profile_name"
+                android:layout_width="341dp"
+                android:layout_height="56dp"
+
+                android:layout_marginTop="44dp"
+                android:background="@drawable/border"
+                android:hint="Enter your full name"
+
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.41"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editText_update_profile_dob"
+                android:layout_width="337dp"
+                android:layout_height="55dp"
+
+                android:layout_marginTop="32dp"
+                android:background="@drawable/border"
+                android:focusable="false"
+                android:hint="Enter your Date of birth(dd/mm/yyyy)"
+
+                android:inputType="date"
+                android:textAlignment="center"
+
+
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_update_profile_name" />
+
+            <TextView
+                android:id="@+id/textView_update_profile_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/poppins_semibold"
+
+                android:text="Biological-Gender*"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_update_profile_dob" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_update_gender"
+                android:layout_width="294dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="64dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_update_profile_dob">
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:text="Female"
+                    android:textColor="#555555"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="85dp"
+
+                    android:text="Male"
+                    android:textColor="#555555"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_upload_profile_pic"
+
+                android:layout_width="319dp"
+                android:layout_height="52dp"
+
+                android:layout_marginTop="44dp"
+                android:background="@drawable/cust_btn_5"
+
+
+                android:fontFamily="@font/poppins_bold"
+                android:text="Upload Profile Pic"
+                android:textColor="@color/End_color_white"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radio_group_update_gender" />
+
+
+            <Button
+                android:id="@+id/button_profile_update_email"
+
+                android:layout_width="319dp"
+                android:layout_height="52dp"
+
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cust_btn_5"
+
+
+                android:fontFamily="@font/poppins_bold"
+                android:text="Upload Email"
+                android:textColor="@color/End_color_white"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_upload_profile_pic" />
+
+            <Button
+                android:id="@+id/button_update_profile"
+
+                android:layout_width="319dp"
+                android:layout_height="52dp"
+
+                android:layout_marginTop="44dp"
+                android:background="@drawable/cust_btn_4"
+
+
+                android:fontFamily="@font/poppins_bold"
+                android:text="Update Profile"
+                android:textColor="@color/End_color_white"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_profile_update_email" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="gone"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

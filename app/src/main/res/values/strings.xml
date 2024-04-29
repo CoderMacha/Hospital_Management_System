@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hospital_Management_app</string>
+    //Headings
+    <string name="heading_one">Best Insurance policies and Cost Effective treatment</string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="select">Select Items</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">
+"Explore our premier health insurance policies and cost-effective treatment options to enhance your well-being. Choose us to make informed decisions and empower yourself with smarter healthcare choices."
+</string>
+    <string name="desc_two">
+"Receive instant notifications for important updates, track your orders seamlessly, and access our 24/7 customer care for technical assistance."</string>
+    <string name="desc_three">"We accept payments through various methods, including cash, cheque, demand draft, UPI, online banking, and other online payment options. Experience hassle-free transactions with our convenient payment solutions."</string>
+    <string name="desc_fourth">"Make payments from anywhere in any currency. We have complete trust in you, and we invite you to reciprocate this trust, fostering a mutually beneficial relationship."</string>
+    <!-- TODO: Remove or change this placeholder text  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
