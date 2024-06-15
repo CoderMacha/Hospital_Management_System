@@ -15,6 +15,6 @@
 "Receive instant notifications for important updates, track your orders seamlessly, and access our 24/7 customer care for technical assistance."</string>
     <string name="desc_three">"We accept payments through various methods, including cash, cheque, demand draft, UPI, online banking, and other online payment options. Experience hassle-free transactions with our convenient payment solutions."</string>
     <string name="desc_fourth">"Make payments from anywhere in any currency. We have complete trust in you, and we invite you to reciprocate this trust, fostering a mutually beneficial relationship."</string>
-    <!-- TODO: Remove or change this placeholder text  -->
+   
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
